@@ -12,8 +12,8 @@
 
   1. Sign in into your account
   2. Add a location you want to visit in the future
-      2.1. Add when you want to visit and whether you have booked your tickets and hotel or not
-      2.2. Once you have visited the location, add pictures you want to store as memories
+      a) Add when you want to visit and whether you have booked your tickets and hotel or not
+      b) Once you have visited the location, add pictures you want to store as memories
   3. You can also add locations you visited previously
   4. Check your profile page to see the summary of your travel in one place
 
