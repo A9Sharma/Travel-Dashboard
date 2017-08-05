@@ -1,0 +1,14 @@
+{
+  "name": "Travel-Dashboard",
+  "version": "1.0.0",
+  "description": "Creating a travel dashboard with AngularJS, Node (w/ Express) and MySQL",
+  "author": "Anjali Sharma <anjalisharma0626@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "angular": "^1.6"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}
