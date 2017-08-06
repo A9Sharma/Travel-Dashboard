@@ -21,3 +21,4 @@ angular.module('travel-dashboard', [])
   },
   templateUrl: 'templates/app.html'
 });
+
