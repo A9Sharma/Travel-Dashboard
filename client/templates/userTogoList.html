@@ -1,0 +1,12 @@
+  <div>
+    <br />
+    <h3>ToGo List<!-- , {{$ctrl.user}} --></h3>
+  </div>
+  <div>
+    <ul>
+      <user-togo-list-entry
+        ng-repeat="togo in $ctrl.togos"
+        togo="togo">
+      </user-togo-list-entry>
+    </ul>
+  </div>

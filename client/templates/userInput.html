@@ -1,9 +1,11 @@
 <div>
   <p>Add Location :
-    <input type="text" ng-model="$ctrl.inputText">
+    <input type="text" ng-model="$ctrl.inputLocation"> Add Country <input type="text" ng-model="$ctrl.inputCountry">
     <button class="btn" ng-click="$ctrl.handleClick()">
       Add
     </button>
   </p>
-  <p>You want to visit : {{$ctrl.inputText}}</p>
+  <p>You want to visit : </p>
+  <p>Location - {{$ctrl.inputLocation}}</p>
+  <p>Country - {{$ctrl.inputCountry}}</p>
 </div>
