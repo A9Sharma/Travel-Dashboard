@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html ng-app>
+<html>
 <head>
   <title>Hello World, AngularJS</title>
-  <script type="text/javascript"
-    src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+  <script src="app.js"></script>
+  <script src="components/userInput.js"></script>
+  <script src="components/userGreeting.js"></script>
 
 </head>
-<body>
+<body ng-app="travel-dashboard">
 
-  Whom do you want to say hello to today:
-  <input type="text" ng-model="inputtext" />
-
-  <h1>Hello, {{ inputtext }}</h1>
+  <app></app>
 
 </body>
 </html>
