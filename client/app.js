@@ -1,24 +1,19 @@
-var togoDataTemplate = [
-  {
-    location: 'Back waters of Kerela',
-    country: 'India'
-  },
-  {
-    location: 'Grand Canypon',
-    country: 'U.S.A.'
-  },
-  {
-    location: 'The Alps',
-    country: 'Switzerland'
-  }
-];
-
 angular.module('travel-dashboard', [])
+.controller('AppCtrl', function(serverData) {
+  this.togoData = [];
+  serverData.fetch((data) =>{
+    this.togoData = data;
+  });
+  this.sendData = (inputData) => {
+    serverData.send(inputData, (data) =>{
+      this.togoData = data;
+    });
+  };
+  this.username = 'Anjali';
+})
+
 .component('app', {
-  controller: function() {
-    this.username = 'Anjali';
-    this.togoData = togoDataTemplate;
-  },
+  controller:'AppCtrl',
   templateUrl: 'templates/app.html'
 });
 

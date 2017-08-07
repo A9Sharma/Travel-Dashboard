@@ -1,16 +1,16 @@
 angular.module('travel-dashboard')
 .component('userInput', {
-  bindings: {
-    user:'<',
-    togos:'<'
-  },
-  controller: function() {
-    this.handleClick = function() {
-      var obj = {};
-      obj.location = this.inputLocation;
-      obj.country = this.inputCountry;
-      this.togos.push(obj);
-    };
-  },
+  bindings: {
+    user:'<',
+    send:'<'
+  },
+  controller: function() {
+    this.handleClick = function() {
+      this.send({
+        location : this.inputLocation,
+        country : this.inputCountry
+      });
+    };
+  },
   templateUrl: 'templates/userInput.html'
 });
