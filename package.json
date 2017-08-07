@@ -5,8 +5,10 @@
   "author": "Anjali Sharma <anjalisharma0626@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
+    "angular": "^1.6",
+    "body-parser": "^1.17.2",
     "bootstrap": "^4.0.0-alpha.2",
-    "angular": "^1.6"
+    "express": "^4.15.3"
   },
   "devDependencies": {
     "jquery": "^3.1.1"
